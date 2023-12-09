@@ -1,9 +1,10 @@
 ----
-- hosts: all
+- name: Update Linux
+  hosts: all
 
   become: true
   
-  task:
+  tasks:
     - name: APT Package Updater
       apt:
         upgrade: yes
