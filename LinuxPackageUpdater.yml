@@ -9,4 +9,4 @@
       apt:
         upgrade: yes
         update_cache: yes
-        
+        autoclean: yes       
