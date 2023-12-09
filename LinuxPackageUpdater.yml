@@ -1,0 +1,11 @@
+----
+- hosts: all
+
+  become: true
+  
+  task:
+    - name: APT Package Updater
+      apt:
+        upgrade: yes
+        update_cache: yes
+        
