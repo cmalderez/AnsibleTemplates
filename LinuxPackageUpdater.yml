@@ -2,7 +2,7 @@
 - name: Update Upgrade & Clean APT Linux
   hosts: all
 
-  become: true
+  become: yes
   
   tasks:
     - name: APT Package Updater
